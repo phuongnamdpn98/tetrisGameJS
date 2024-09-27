@@ -1,0 +1,101 @@
+* {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container-game {
+    display: grid;
+    grid-template-columns: 420px 200px;
+    border: 2px solid;
+    justify-content: center;
+    height: 99vh;
+    background-color: rgb(96, 136, 167);
+}
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 98vh;
+}
+
+#board{
+    height: 98vh;
+    border: 2px solid black;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../imgs/banner.jpg');
+    background-repeat: no-repeat;  
+    background-size: cover;
+    background-position: center; 
+}
+
+.container-play{
+    display: flex;
+    justify-content: center;
+}
+
+.play-btn{
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    font-size: 16px;
+    padding: 16px 70px;
+    cursor: pointer;
+    margin: 28% auto 0px;
+    text-decoration: none; 
+    color: black;
+}
+
+.btn{
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    font-size: 16px;
+    padding: 16px 30px;
+    cursor: pointer;
+    width: 220px;
+}
+
+.btn-exit{
+    margin: 12px 0px 0px;
+}
+
+.popup{
+    width: 400px;
+    background-color: #fff;
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    top: 40%;
+    left: 35%;
+    text-align: center;
+    padding: 10px 30px 30px;
+}
+
+.popup h2{
+    font-size: 32px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.popup button{
+    width: 100%;
+    margin-top: 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    padding: 10px 0px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    background-color: cornflowerblue;
+}
